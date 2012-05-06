@@ -1,0 +1,180 @@
+body {
+  margin:10px 10px 0px 10px;
+  padding:0px;
+  background:#ffffff;
+}
+	
+#banner {
+  background:#fff;
+  height:128px;
+  border: 0px dotted #000;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  padding-top: 40px;
+  margin-right:211px;
+}
+html>body #banner {
+  height:120px;
+}
+
+#leftcontent {
+  position: absolute;
+  left: 10px;
+  top: 178px;
+  width: 175px;
+}
+
+#centercontent {
+  background:#ffffff;
+  margin-left: 186px;
+  margin-right:50px;
+  margin-bottom:10px;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  margin-left: 188px;
+  margin-right:50px;
+}
+html>body #centercontent {
+  margin-left: 188px;
+  margin-right:211px;
+  margin-top:8px;
+}
+
+p, h1, h2, pre {
+  font-family: sans-serif;
+  margin:0px 10px 10px 10px;
+}
+      
+h1 {
+  font-size:14px;
+  padding-top:10px;
+}
+      
+tr {
+   font-size: 12px;
+   color: #404040;
+}
+
+#centercontent h1 {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #a0a0a0;
+}
+
+#centercontent h2 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #a0a0a0;
+  padding-top: 10px;
+}
+
+#centercontent p {
+  font-size: 12px;
+  line-height: 150%;
+  color: #404040;
+}
+
+#centercontent a:link {
+  color: #008000;
+  text-decoration: none;
+}
+
+#centercontent a:visited {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+#centercontent a:hover {
+  color: #ee0000;
+  text-decoration: underline;
+}
+
+#leftcontent h1 {
+  color: #606060;
+}
+
+#rightcontent h1 {
+  color: #606060;
+}
+
+#leftcontent a:link {
+  color: #008000;
+  text-decoration: none;
+}
+
+#leftcontent a:visited {
+  color: #606060;
+  text-decoration: none;
+}
+
+#leftcontent a:hover {
+  color: #ee0000;
+  text-decoration: underline;;
+}
+	
+
+#leftcontent p {
+  font-family: sans-serif;
+  font-size:12px;
+  color: #606060;
+}
+
+.au-sti {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-family: "Arial","Helvetica",sans-serif;
+  font-size: 11px;
+  color: #008000;
+  text-decoration: none;
+}
+
+ul.au-nav li {
+  list-style-image: url(markeret-li.gif);
+  font-family: sans-serif;
+  color: #404040;
+  font-size: 12px
+}
+ul.au-nav li.markeret {
+  list-style-image: url(markeret-li.gif');
+}
+ul {
+  margin-left: 12pt;
+  padding-left: 10px;
+}
+ul.au-nav a {
+  text-decoration: none;
+}
+
+ol li {
+  font-family: sans-serif;
+  color: #404040;
+  font-size: 12px
+}
+
+ul.plain {
+  margin-left: 12pt;
+  padding-left: 12pt;
+}
+
+a:link {
+  color: #008000;
+}
+a:visited {
+  color: #0033cc;
+}
+a:hover {
+  color: #ee0000;
+  text-decoration: underline; 
+}
+
+.au-sti a {
+  color: #008000;
+  text-decoration: none;
+}
+.au-sti a:visited {
+  color: #008000; 
+}
+.au-sti a:hover {
+  color: #ee0000 !important; 
+  text-decoration: underline; 
+}

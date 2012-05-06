@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="./homepage.css" rel=stylesheet type="text/css">
+<title></title>
+</head>
+
+<body>
+
+<hr>
+
+<h1><a href="http://www.informatik.uni-rostock.de/~kk105/acpn/Welcome.html">Advanced Course on Petri Nets 2010</a></h1>
+
+<h2>Protocol Verification and State Spaces (September 13)</h2>
+
+<hr>
+
+<h2>Abstract</h2>
+
+<p>Communication protocols constitute critical building blocks in most
+modern ICT systems as they define components, rules, and languages
+that make data communication possible. The development of correct
+communication protocols is a challenging engineering discipline,
+making modelling and validation of protocols a key application domain
+for the use of Petri nets, concurrency theory, and model checking
+technology.  The lectures on this topic will provide a brief
+introduction to Coloured Petri Nets (CPNs), Time Petri Nets (TPNs),
+and Timed Automata (TA) as languages for constructing formal models of
+protocols. Next, the use of explicit state space exploration for
+verification of protocols will be covered. This will be followed by a
+presentation of the basic approaches to model checking of properties
+expressible in (timed) temporal logics, focussing on symbolic
+SAT-based verification.  Throughout the lectures, a number of standard
+and larger industrial case studies will be used to illustrate how the
+presented modeling languages and associated verification techniques
+can be applied for the practical verification of protocols.</p>
+
+<h2>Outline (all slides updated 15/09/2010)</h2>
+
+<ol>
+<li>Protocol verification and state space methods <a href="Introduction.pdf"> [PDF]</a></li>
+<li>Introduction to model checking techniques <a href="1Intro-to-modchec.pdf"> [PDF]</a> </li>
+<li>Formal modelling of protocols
+<ul>
+<li> Specification and model checking of time Petri nets and timed automata <a href="2TPN-TA-State-spaces.pdf"> [PDF]</a> 
+<li> Coloured Petri nets <a href="ColouredPetriNets.pdf"> [PDF]</a></li>
+</ul>
+<li>Model checking and verification of protocols 
+<ul>
+<li> Bounded parametric model checking for Petri nets <a href="3PMC-for-PN.pdf"> [PDF]</a></li>
+<li> State space exploration of coloured Petri nets <a href="CPNStateSpaces.pdf"> [PDF]</a></li>
+</ul>
+<li>Examples of case studies and application of computer tools
+<ul> 
+<li> Verification of distributed systems with the toolkit VerICS <a href="4Verics-Demo.pdf"> [PDF]</a> 
+<li> Industrial application of coloured Petri nets for protocol verification <a href="CPNIndustrialExamples.pdf"> [PDF]</a></li></li>
+
+</ol>
+</ol>
+
+<h2>Reading List</h2>
+
+<p>The following papers are suggested as background material for the lectures:</p>
+
+<ul>
+
+<li> W. Penczek and A. Polrora. <i>Specification and Model Checking of
+Temporal Properties in Time Petri Nets and Timed Automata</i>. In
+Proc. of 25th International Conference on Application and Theory of
+Petri Nets, pp. 37-76. Volume 3099 of Lecture Notes in Computer
+Science 3099, Springer 2004. <a href="WP-ATPN-2004.pdf">PDF</a></li>
+
+<li> M. Knapik, W. Penczek, A. Polrora, and M. Szreter. <i> Bounded
+Parametric Verification for Distributed Time Petri Nets with
+Discrete-Time Semantics</i>. In Proc. of CS&P 2009, pages 277-290. To
+appear in Fundamenta Informaticae 2010. <a href="WP-CSP-2009.pdf">PDF</a> (not obligatory reading)</li>
+
+<li>K. Jensen, L.M. Kristensen, and L. Wells. <i>Coloured Petri Nets
+and CPN Tools for Modelling and Validation of Concurrent
+Systems</i>. In International Journal on Software Tools for Technology
+Transfer (STTT), Vol 9, No. 3-4, pp. 213-254. Springer-Verlag,
+2007. <a href="LMK-STTT-2007.pdf">PDF</a></li>
+
+<li>L.M. Kristensen and K. Jensen. <i>Specification and Validation of
+an Edge Router Discovery Protocol for Mobile Ad Hoc Networks.</i>In
+Integration of Software Specification Techniques for Applications in
+Engineering, pages 248-269. Volume 3147 of Lecture Notes in Computer
+Science. Springer, 2004. <a href="LMK-ERDP-2004.pdf">PDF</a></li>
+
+</ul>
+
+<p>A comprehensive coverage of the lecture topics can be found in the
+following textbooks:</p>
+
+<ul>
+
+<li>W. Penczek and
+A. Polrora. <i><a href="http://www.springerlink.com/content/p7ww114t52u3/">Advances
+in Verification of Time Petri Nets and Timed Automata: A Temporal
+Logic Approach</a></i>. Springer 2006.
+
+<li>K. Jensen and
+L.M. Kristensen.<i><a href="http://www.cs.au.dk/CPnets/cpnbook/">Coloured
+Petri Nets: Modelling and Validation of Concurrent
+Systems</a></i>. Springer, 2009.
+
+</ul>
+
+<h2>Exercises with CPN Tools (on Friday September 17)</h2>
+
+<p>The following exercises are suggested for the practical work
+with <a href="http://www.daimi.au.dk/CPNtools/">CPN Tools</a>. The
+exercises are taken from
+the <a href="http://www.cs.au.dk/CPnets/cpnbook/">CPN book web
+page</a>.
+
+<ul>
+<li>Exercises 1, 2, and 3 from <a href="http://www.cs.au.dk/CPnets/cpnbook/projects/project0.html">Getting Started with CPN and CPN Tools</a>
+<li>Task 1 from <a href="http://www.cs.au.dk/CPnets/cpnbook/projects/project2.html">CPN State Space Analysis</a>
+<li>Task 2 or 3 from <a href="http://www.cs.au.dk/CPnets/cpnbook/projects/project1.html">CPN Modelling</a> and Task 2 in <a href="http://www.cs.au.dk/CPnets/cpnbook/projects/project2.html">CPN State Space Analysis</a>
+</ul>
+
+<p>It is recommended to work on the exercises in the order listed
+above. There may not be sufficient time at the practical work to complete all the
+exercises. </p>
+
+<h2>Presenters </h2>
+
+<p><a href="http://www.ipipan.waw.pl/~penczek/">Wojciech Penczek</a>
+is Professor in Computer Science and the head of the Theory of
+Distributed Systems group at ICS PAS, Warsaw, Poland. He was a
+research fellow at the Technical University of Eindhoven and
+Manchester University; he also worked as a consultant at AT&T. His
+research is now focused on verification methods for Petri nets , timed
+automata, and multi-agent systems. He has recently co-authored a book
+on verificaition of Time Petri Nets and Timed Automata, published by
+Springer-Verlag . He has been a project leader of the EC-founded
+project CRIT-2 and played a main role in several national projects. He
+has chaired and was a PC member of many conferences on Computer
+Science. He is the author of more than 120 conference and journal
+articles on temporal logic, verification methods, model checking, and
+formal theories of concurrency. His teaching record, besides numerous
+regular undergraduate courses, includes two courses at EASSS (European
+Agent Systems Summer School). This year he was a co-chair of the Petri
+Net conference in Braga, Portugal.</p>
+
+<p><a href="http://www.hib.no/ansatte/lmkr/">Lars Michael
+Kristensen</a> is Professor in Informatics and director of the
+software technologies for distributed systems research program at
+Bergen University College, Norway. He holds a PhD degree in computer
+science from Aarhus University in 2000, and has previously held
+positions at University of South Australia and Aarhus University. He
+has more than 10 years of research experience in the application of
+state space methods for verification of communication protocol. A main
+focus has been the theoretical foundation of state space methods and
+their implementation in computer tools, in particular in the context
+of Coloured Petri Nets. A strong focus has also been on applying the
+developed state space methods and supporting computer tools in
+industrial cooperation projects, in particular in the domain of
+Internet protocols.  He has recently co-authored a new textbook on
+Coloured Petri Nets published by Springer-Verlag, and in 2007 he
+received the Danish Independent Research Councils' Young Researcher's
+Award.</p>
+
+
+
+<hr>
+
+</body>
+</html>
